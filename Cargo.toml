@@ -3,6 +3,10 @@ name = "credman"
 version = "0.1.0"
 edition = "2021"
 authors = ["Ricky Kettlitz"]
+license-file = "LICENSE"
+description = "A little command line tool based on RustCrypto: RSA library"
+repository = "https://github.com/ricky85ps/credman"
+readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

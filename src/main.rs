@@ -129,7 +129,7 @@ fn read_file(file_dir: &Path) -> Vec<u8> {
 
 fn write_file(data: &[u8], file_dir: &Path) {
     let mut file = File::create(file_dir).unwrap();
-    file.write_all(&data.clone()).unwrap();
+    file.write_all(&data).unwrap();
 }
 
 fn load_priv_key(path: &Path) -> RsaPrivateKey {

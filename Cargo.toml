@@ -1,9 +1,9 @@
 [package]
 name = "credman"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Ricky Kettlitz"]
-license-file = "LICENSE"
+license = "MIT"
 description = "A little command line tool based on RustCrypto: RSA library"
 repository = "https://github.com/ricky85ps/credman"
 readme = "README.md"
